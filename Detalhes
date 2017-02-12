@@ -1,5 +1,5 @@
 #!/bin/bash
-echo -e "\033[40;1;37m VpsPack Detalhes \033[0m
+echo -e "\033[40;1;37m vps Detalhes \033[0m
 \033[1;33mSempre execute com o usuario root
 Vc pode virar root com \033[1;31msu \033[1;33mou \033[1;31msudo su"
 
@@ -15,19 +15,19 @@ Tbm pode a usar com apenas um comando \033[1;33mlimit usuario limite\033[0m
 
 \033[1;36mObjetivo criar usuarios de forma rapida e aplicando uma validade em dias
 Para executar comando: Usercreate 
-Ou execute pelo VpsPack
+Ou execute pelo vps
 
 \033[1;32mUserBack:
 
 \033[1;36mObjetivo: Escolher entre deletar usuarios Forçar o deletamento e tambem desconectar todos de um usuario.
 Para executar: UserBack
-Ou execute pelo VpsPack.
+Ou execute pelo vps.
 
 \033[1;32mUserRedefine:
 
 \033[1;36mFerramenta para redefinir o limite de logins de um usuario ou redefinir a data de expiraçao de um usuario.
 Para executar: UserRedefine
-Ou execute pelo VpsPack
+Ou execute pelo vps
 
 \033[1;32mInstall-addhosts & add-hosts:
 
@@ -35,7 +35,7 @@ Ou execute pelo VpsPack
 
 Ferramenta add-hosts ela adiciona novos dominios (hosts payloads) em qualquer tipo de squid.conf
 
-Execute pelo VpsPack
+Execute pelo vps
 
 \033[1;32mFirewall-block & firewall-reset:
 
@@ -46,7 +46,7 @@ Firewall-reset desfaz todas as regras iptables desabilitando qualquer bloqueio n
 ATENÇAO ESSAS DUAS FERRAMENTAS PODEM CAUSAR PROBLEMAS EXECUTE POR SUA CONTA
 MUITAS EMPRESAS USAM O IPTABLES EM SUAS MAQUINAS VIRTUAIS E ESSE NÃO PODE SER ALTERADO
 
-Execute pelo VpsPack
+Execute pelo vps
 
 \033[1;32mMonitoring:
 
@@ -62,4 +62,4 @@ Ou retire o limite de todos
 
 rm -r /etc/tempo /etc/usuarios
 
-\033[40;1;37m(Telegram canal: Unix SSH)\033[0m"
+\033[40;1;37m(Telegram canal: @NerdologiaVps)\033[0m"
